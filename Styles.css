@@ -1,0 +1,60 @@
+/* HTML TAGS */
+h1, h3, h4, p {
+  text-align: center;
+}
+body{
+  background-color: #a2a8d3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
+/* ID tags */
+#startButton{
+  display: block;
+  margin: 50px auto auto;
+  text-align: center;
+  background-color: #113f67;
+}
+#startButton:hover{
+  filter: grayscale(70%);
+}
+#displayStats{
+  display: block;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  background-color: #113f67;
+}
+#displayStats:hover{
+  filter: grayscale(70%);
+}
+#carouselExample:hover{
+  filter: grayscale(1%);
+}
+#carouselExample:active{
+  filter: grayscale(80%);
+}
+#carouselExample{
+  display: block;
+  margin: 40px 85px 40px 85px
+}
+#navbar{
+  background-color: #38598b;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#homeTitle{
+  margin: 35px auto 20px auto
+}
+
+/* Class tags */
+.nameInput{
+  display: block;
+  margin: 50px auto;
+  background-color: #C0C0C0;
+}
+.desc{
+  margin: 50px 150px 40px 150px;
+  text-align: left;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game menu</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+        <!-- /*bootstrap tags*/ -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- My Links  -->
+        <link rel="stylesheet" href="Styles.css">
+
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary" id="navbar">
+      <form class="container-fluid justify-content-start" id="navbar">
+        <button class="btn btn-outline-light me-2" id="homeButton" type="button">Home Page</button>
+        <button class="btn btn-sm btn-outline-light" type="button">Other Options Here</button>
+      </form>
+    </nav>
+    <h1>Welcome to the Pirate Game, Captain</h1>
+
+
+
+    <p class="desc">INTRO: In this game, you aim to claim a bounty on a dangerous
+      creature. You will first need to pick the creature you want to hunt. Each creature
+      will have its stats listed on the bottom left of each image.
+      Your objective is to build a ship that can take out the monster you hope to best.
+      To start, you will have 30,000 gold. A ship, Pirate Crew, Captain, and Cannons will all need to be bought and paid for. Each of these options will have their stats listed
+      on the bottom left of each image. <br> <br> HOW TO PLAY: Scroll by clicking the arrow on the
+      right side of each image. To make a selection, press “Click Here” on any image, confirm your selection and continue scrolling. BE CAREFUL
+      with selections you will only be able to make one per category. Be sure not to spend too much
+      or too little, aim to have your stats better than the monster you’re hunting. Display your stats
+      with the button above the images. <br> <br>
+      RESET: If you make a selection you didn't mean to, click the Home Page button and start again <br> <br>
+      Good luck Captain !!
+    </p>
+
+<button type="button" class="btn btn-dark" id="displayStats">Display Player Stats</button>
+
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <!-- INTRO SLIDE -->
+    <div class="carousel-item active">
+      <img src="images/Start Page.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- MONSTERS -->
+    <div class="carousel-item">
+      <img src="images/monsters/Sirens.jpg" id="sirens" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/monsters/Ghost Ship.jpg" id="ghostShip" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/monsters/Shark.jpg" id="shark" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/monsters/Kraken.jpg" id="kraken" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/monsters/Ocean God.jpg" id="oceanGod" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- SHIPS -->
+    <div class="carousel-item">
+      <img src="images/Ship Page.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ships/Small Ship.jpg" id="smallShip" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ships/Jet Ship.jpg" id="jetShip" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ships/Med Ship.jpg" id="medShip" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ships/Tough Ship.jpg" id="toughShip" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ships/God Ship.jpg" id="godShip" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- CAPTAINS -->
+    <div class="carousel-item">
+      <img src="images/Captain Page.jpg"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/captains/Drunk Captain.jpg" id="drunkCaptain" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/captains/Liar Captain.jpg" id="liarCaptain" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/captains/Navy Captain.jpg" id="navyCaptain" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/captains/Young Captain.jpg" id="youngCaptain" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/captains/Blackbeard.jpg" id="blackbeard" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- CANNONS -->
+    <div class="carousel-item">
+      <img src="images/Cannon Page.jpg"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cannons/Small Cannon.jpg" id="smallCannon" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cannons/Jet Cannon.jpg" id="jetCannon" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cannons/Flower Cannon.jpg" id="flowerCannon" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cannons/Rapid Cannon.jpg" id="rapidCannon" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cannons/God Cannon.jpg" id="godCannon" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- CREW -->
+    <div class="carousel-item">
+      <img src="images/Crew Page.jpg"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/crew/Cheap Crew.jpg" id="cheapCrew" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/crew/Corpo Crew.jpg" id="corpoCrew" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/crew/Undead Crew.jpg" id="undeadCrew" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/crew/Navy Crew.jpg" id="navyCrew" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/crew/Blackbeard Crew.jpg" id="blackbeardCrew" class="d-block w-100" alt="...">
+    </div>
+
+    <!-- END PAGE -->
+    <div class="carousel-item">
+      <img src="images/End Page.jpg" id="endPage"  class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+    <!-- JS Links -->
+      <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      <!-- My Links  -->
+        <script src="index.js" charset="utf-8"></script>
+
+        <script>
+          $(document).ready(function() {
+            getPlayerName();
+          });
+        </script>
+  </body>
+</html>
